@@ -55,6 +55,21 @@ Use the "Live Server" extension
 
 Then open: `http://localhost:8080/index.html`
 
+## GitHub Pages (Avoid 404)
+
+This repository includes a workflow at `.github/workflows/deploy-pages.yml` that deploys the site to GitHub Pages.
+
+One-time setup on GitHub:
+
+1. Open your repository Settings -> Pages.
+2. Under Build and deployment, set Source to GitHub Actions.
+3. Push to `main` (or `master`) and wait for the Deploy static site to GitHub Pages workflow to finish.
+
+Open the site at:
+
+- Project site: `https://<your-username>.github.io/<your-repo>/`
+- User/org site (only if repo name is exactly `<your-username>.github.io`): `https://<your-username>.github.io/`
+
 ## Day Types (Colour Code)
 
 | Colour | Meaning |
